@@ -1,11 +1,11 @@
-db.createUser (
+db.createUser(
     {
-        user : "pnourrissier",
-        pwd : "pwdXXX1234",
-        roles : [
+        user: "root",
+        pwd: "root",
+        roles: [
             {
-                role : "readWrite",
-                db : "firstmongodb"
+                role: "readWrite",
+                db: "initmongodb"
             }
         ]
     }
